@@ -27,7 +27,7 @@ def date_range(start_date, end_date, increment, period):
 
 start_date = datetime(2019,5,5)
 end_date = start_date + relativedelta(days=30)
-date_list = date_range(start_date, end_date,12, 'hours')
+date_list = date_range(start_date, end_date,0.5, 'hours')
 
 import pytz
 utc=pytz.UTC
